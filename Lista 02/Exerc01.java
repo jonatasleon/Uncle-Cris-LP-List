@@ -23,6 +23,8 @@ public class Exerc01 {
 				n2 = read.nextDouble();
 			}
 
+			System.out.printf("Média final: %2.2f\n", (n1 + n2) / 2);
+
 			System.out.print("NOVO CALCULO? (S/N): ");
 		}while(readStr.nextLine().equalsIgnoreCase("s"));		
 	}
