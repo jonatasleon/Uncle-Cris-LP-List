@@ -4,8 +4,6 @@ public class Exerc01 {
 	public static void main(String[] args) {
 		Scanner read = new Scanner(System.in);
 		Scanner readStr = new Scanner(System.in);
-		
-		String op = "s";
 
 		do {
 			double n1, n2;
